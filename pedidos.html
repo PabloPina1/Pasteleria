@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="stayles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Rosario</title>
+</head>
+<body>
+    <header class="logo">
+        
+        <nav class="menu">
+            <img class="logo1" src="img/logo-removebg-preview.png" alt="">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pedidos.html">Pedidos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contenedor_1">
+        <div class="pedido">
+            <h2 class="encabezado">Tamaño</h2>
+            <p>Eliga su tamaño</p><br>
+            <input type="radio" id="Chico" name="pastel" value="Chico">
+            <label for="Chico">Chico</label>
+            <input type="radio" id="Mediano" name="pastel" value="Mediano">
+            <label for="Mediano">Mediano</label>
+            <input type="radio" id="Grande" name="pastel" value="Grande">
+            <label for="Grande">Grande</label><br><br>
+        </div>
+        <div class="pedido">
+            <h2 class="encabezado">Sabores</h2>
+                <label for="pasteles">Elige el sabor</label><br>
+                <select id="pasteles" name="pasteles">
+                <option value=""></option>
+                <option value="Vainilla">Vainilla</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Almendra">Almendra</option>
+                <option value="Limon">Limon</option>
+                <option value="Zanahoria">Zanahoria</option>
+                <option value="Caramelo">Caramelo</option>
+                </select> <br><br>
+        </div>
+        <div class="pedido">
+            <h2 class="encabezado">Rellenos</h2>
+            <label for="relleno">Elige tu relleno</label><br>
+            <select id="relleno" name="relleno">
+            <option value=""></option>
+            <option value="Frutos Rojos">Frutos Rojos</option>
+            <option value="Franbueza">Franbueza</option>
+            <option value="Limon">Limon</option>
+            <option value="Merengue">Merengue</option>
+            <option value="Caramelo Salado">Caramelo Salado</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Chocolate Blanco">Chocolate Blanco</option>
+            </select><br><br>
+        </div>
+        <div class="pedido">
+            <h2 class="encabezado">Coberturas</h2>
+            <label for="cobertura">Coberturas</label><br>
+            <select name="cobertura" id="cobertura">
+            <option value=""></option>
+            <option value="Crema Batida">Crema Batida</option>
+            <option value="Fondant">Fondant</option>
+            <option value="Merengue">Merengue</option>
+            <option value="Queso Crema">Queso Crema</option>
+            <option value="Caramelo Salado">Caramelo Salado</option>
+            </select><br><br>
+        </div>
+    <div class="pedido">
+        <p class="encabezado">Agregar comentario</p>
+        <textarea name="comentario" id="comentario" cols="50" rows="10"></textarea>
+    </div>
+    <div class="pedido_1">
+        <button>Realizar Pedido</button>
+    </div>
+    </section>
+
+    <footer>
+        <div class="contenedor_footer">
+            <div class="box_footer">
+                <div class="logo">
+                    <a href="index.html"><img class="logo_footer" src="img/logo-removebg-preview.png"></a>
+                </div>
+            </div>
+            <div class="box_footer">
+                <a name="contacto" id="contacto">Contacto</a>
+                <p>477-120-30-30</p><br>
+                <p>C. Nicaragua 301, Arbide, 37360 León, Gto.</p>
+            </div>
+            <div class="box_footer">
+                <h2>Redes Sociales</h2>
+                <a href=""> <img class="iconos" src="iconos/face.png" alt=""> Facebook </a>
+                <a href=""> <img class="iconos"  src="iconos/insta.png" alt=""> Instagram </a>
+                <a href=""> <img class="iconos"  src="iconos/twi.png" alt=""> Twitter </a>
+                <a href=""> <img class="iconos"  src="iconos/you.png" alt=""> Youtube </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

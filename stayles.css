@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(img/pasteleros.jpg) ;
+    background-size: 100%;
+    position: relative;
+
+}
+
+nav {
+    background-color: rgb(250, 235, 215, 0.70);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.deslizar {
+    text-align: center;
+    margin: 20px;
+}
+
+.deslizar li {
+    display: inline-block;
+    text-align: center;
+}
+
+.deslizar li a {
+    display: inline-block;
+    color: rgba(250, 235, 215);
+    text-decoration: none;
+    background-color: rgba(184, 221, 223, .6);
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.lagaleria {
+    margin: auto;
+    border: 2px solid white;
+    margin-top: 20px;
+    background-color: white;
+    width: 800px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.galeria {
+    position: relative;
+    width: 800px;
+    height: 500px;
+}
+
+ul.galeria li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0);
+    transition: opacity .5s;
+}
+
+ul.galeria li img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+ul.galeria li:first-child {
+    opacity: 1;
+}
+
+ul.galeria li:target {
+    opacity: 1;
+}
+
+.logo1 {
+    width:  9%;
+}
+
+.iconos {
+    width: 10%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    border-left: 1px solid rgba(0, 0, 0, 0.45);
+    letter-spacing: .7rem;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 1.2rem;
+    padding: .8rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: rgba(250, 235, 215,.8);
+    transition: all .3s;
+    border-bottom: solid .2rem #b8dddf;
+    border-radius: 10px;
+}
+
+.titulo {
+    color: rgba(250, 240, 223, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+section {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.sabores {
+    background-color: rgba(184, 221, 223, .6);
+    padding: 10px;
+    width: 50%;
+    margin: 40px;
+    float: left;
+    border-radius: 20px;
+}
+
+.relleno {
+    background-color: rgba(184, 221, 223, .6);
+    padding: 10px;
+    width: 50%;
+    margin: 40px;
+    float: left;
+    border-radius: 20px;
+}
+
+.cobertura {
+    background-color: rgba(184, 221, 223, .6);
+    padding: 10px;
+    width: 50%;
+    margin: 40px;
+    float: left;
+    border-radius: 20px;
+}
+
+.precio {
+    background-color: rgba(184, 221, 223, .6);
+    padding: 10px;
+    width: 50%;
+    margin: 40px;
+    float: left;
+    border-radius: 20px;
+}
+
+.lis {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-indent: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(250, 235, 215,.8);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+
+.contenedor_footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        gap: 100px;
+        margin-top: 40px;
+}
+
+.logo_footer {
+    width: 30%;
+}
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.box_footer .logo img {
+    width: 180px;
+}
+
+.box_footer h2 {
+    margin-bottom:  30px;
+    font-weight: 700;
+}
+
+.box_footer a {
+    font-size:  20px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.contenedor_1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pedido {
+    background-color: rgba(184, 221, 223, .60);
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.comentario {
+    font-size: 4rem;
+}
+
+#contacto {
+    margin-bottom:  30px;
+    font-size: 3rem;
+}
+
+.encabezado {
+    color: rgba(250, 240, 223, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.pedido_1 {
+    background-color: #ffffff00;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    padding: 3rem;
+    text-align: center;
+    align-items: center;
+}
+
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 400px;
+    background-color: #ffffff00;
+    border: 2px solid #ccc;
+    font-size: x-large;
+    border-radius: 5px;
+    transition-duration: .04s;
+}
+
+button:hover {
+    background-color: #b8dddf;
+    cursor: pointer;
+}
+
